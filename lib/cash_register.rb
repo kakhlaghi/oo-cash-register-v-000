@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def items
-    self.item
+    self.item.flatten
   end
   
   def void_last_transaction
